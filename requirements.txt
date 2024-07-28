@@ -1,4 +1,18 @@
-open3d==0.15.1
+#in python 3.8.13: 
+#pip install open3d easydict tensorboard opencv-python spconv-cu114 nms setuptools scikit-image PyQt5 numba einops
+#Fix cuda links if your environment takes the wrong cuda
+#gedit ~/.bashrc
+#export PATH=$PATH:/usr/local/cuda/bin
+#export CUDADIR=/usr/local/cuda
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+#export CUDA_HOME=/usr/local/cuda
+#save changes and reactivate ~/.bashrc
+#source ~/.bashrc
+#pip3 install torch torchvision torchaudio #requires cuda-toolkit >=12.0
+#pip install SharedArray
+#follow instructions from: https://github.com/kaist-avelab/K-Radar/blob/main/docs/detection.md
+
+open3d==0.15.2
 easydict
 tensorboard
 opencv-python==4.2.0.32
@@ -9,3 +23,4 @@ PyQt5
 scikit-image
 numba
 einops
+
